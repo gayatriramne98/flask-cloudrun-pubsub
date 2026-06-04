@@ -1,0 +1,79 @@
+# Event-Driven Flask Application with Jenkins, Cloud Run & Pub/Sub
+
+## Project Overview
+
+This project demonstrates the deployment of a Python Flask application using Jenkins CI/CD, Docker, Google Cloud Run, and Pub/Sub.
+
+The application is designed to showcase modern DevOps and Cloud practices, including automated build, testing, containerization, and serverless deployment.
+
+## Technologies Used
+
+- Python
+- Flask
+- Jenkins
+- Docker
+- Google Cloud Run
+- Google Cloud Pub/Sub
+- GitHub
+- Git
+
+## Project Architecture
+
+```text
+GitHub
+   │
+   ▼
+Jenkins Pipeline
+   │
+   ├── Build Application
+   ├── Run Tests
+   ├── Build Docker Image
+   ├── Push Docker Image
+   └── Deploy to Cloud Run
+                │
+                ▼
+          Flask Application
+                │
+                ▼
+            Pub/Sub
+                │
+                ▼
+       Asynchronous Processing
+```
+
+## Features
+
+- Flask Web Application
+- CI/CD Pipeline using Jenkins
+- Docker Containerization
+- Automated Deployment
+- Serverless Hosting with Cloud Run
+- Event-Driven Architecture with Pub/Sub
+
+## Project Structure
+
+```text
+flask-cloudrun-pubsub/
+│
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── Jenkinsfile
+└── README.md
+```
+
+## Learning Objectives
+
+- Understand CI/CD concepts
+- Learn Jenkins Pipeline automation
+- Deploy applications using Cloud Run
+- Work with Docker containers
+- Implement Pub/Sub messaging
+- Build cloud-native applications
+
+## Author
+
+**Gayatri Ramne**
+
+B.Sc. Data Science Student  
+Cloud & DevOps Enthusiast
